@@ -36,6 +36,7 @@ var pigLatin = function(phrase) {
   }
 
   //function that turns each word to pig latin form
+  //This function can be refactored heavily using regular expressions
   function pigLatinTransformer(letters) {
     var returnLetters = [];
     var consonants = 0;
